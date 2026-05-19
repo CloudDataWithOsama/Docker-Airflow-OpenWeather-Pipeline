@@ -28,15 +28,21 @@ Is project ka maqsad ek scalable aur automated environment banana hai jo:
 ## 📂 Project Structure
 
 ```text
-docker_exp/
-├── dags/                    # Airflow DAG files (ETL Logic)
-├── logs/                    # Airflow container logs
-├── config/                  # Airflow configuration
-├── plugins/                 # Custom plugins
-├── sql/                     # SQL scripts (Table creation)
-├── Dockerfile               # Custom Airflow image with dependencies
-├── docker-compose.yaml      # Multi-container setup
-└── README.md                # Project documentation
+Docker-Airflow-OpenWeather-Pipeline/
+├── docker_exp/
+│   ├── dags/               # Airflow DAG files (ETL Logic)
+│   ├── logs/               # Airflow container logs
+│   ├── config/             # Airflow configuration
+│   ├── plugins/            # Custom plugins
+│   ├── sql/                # SQL scripts (table creation)
+│   ├── Dockerfile          # Custom Airflow image with dependencies
+│   └── docker-compose.yaml # Multi-container setup
+├── Architecture.png        # System architecture diagram
+├── Airflow_connections.md  # Steps for Airflow connection setup
+├── AWS.md                  # AWS configuration details
+├── commnads.md             # Useful terminal commands list
+├── pgAdmin.md              # pgAdmin login & setup guide
+└── README.md               # Main project documentation
 
 ```
 
