@@ -13,9 +13,9 @@ Admin ---> Connection ---> Add Connection
    		Connection ID : weathermap_api
 		Connection Type : HTTP
 
-```bash
-Host: https://api.openweathermap.org
-```
+	```bash
+	Host: https://api.openweathermap.org
+	```
 
 2.	Postgres
    		Connection ID: postgres_default
